@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube clone for Practice</title>
+    <link rel="shortcut icon" href="./Images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img src=".//images/MenuBar.png" alt="" class="menu-icon" />
+        <!-- <span><i class="fas fa-bars" class="menu-icon icon" ></i></span> -->
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHT40r-P1hpTH9xkjvXy0V0TIzzX-Kwm_xSA&usqp=CAU"
+          class="youtube-logo"
+          alt=""
+        />
+      </div>
+      <div class="nav-middle flex-div">
+        <div class="search-box flex-div">
+          <input type="text" placeholder="Search Here" />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmy3p4PvB5ql2xnUG4-Dt2N2dJkkuxNKxLzA&usqp=CAU"
+            width="20px"
+          />
+        </div>
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwuFXKCUsrNunIjGpWFx9-wdoS-hgE0F2kxg&usqp=CAU"
+          class="mix-icon"
+          width="20px"
+        />
+      </div>
+      <div class="nav-right flex-div">
+        <img src=".//images/upload.png" alt="" />
+        <img src=".//images/more.png" alt="" />
+        <img src=".//images/notification.png" alt="" />
+        <img
+          src="https://images.pexels.com/photos/610294/pexels-photo-610294.jpeg?auto=compress&cs=tinysrgb&w=600"
+          alt=""
+          class="user-icon"
+        />
+      </div>
+    </nav>
+
+    <div class="container play-container">
+      <div class="row-video">
+        <div class="play-video">
+          <video
+            controls
+            autoplay
+            src="https://player.vimeo.com/progressive_redirect/playback/321298131/rendition/360p?loc=external&oauth2_token_id=1027659655&signature=ff2b4b01e4f511c657fd22a5621d0b9c751b95f88ba17bbff1b4e05cacf32f86"
+          ></video>
+          <!-- <video controls autoplay src="./images/video.mp4"></video> -->
+
+          <!-- Tags for the video -->
+
+          <div class="tags">
+            <a href="">#IndianHistory</a> <a href="">#IndianCulture</a>
+            <a href="">#Flowers</a> <a href="">#Videos</a> <a href="">#Feed</a>
+            <a href="">#IndianBeauty</a>
+          </div>
+          <h3>Indian Flowers make your day happy</h3>
+
+          <!-- Video Information -->
+
+          <div class="live-video-info">
+            <p>89777 Views &bull; 4 years ago</p>
+            <div>
+              <a href=""><img src="./images/like.png" alt="" /> 10K</a>
+              <a href=""><img src="./images/dislike.png" alt="" /> 10K</a>
+              <a href=""><img src="./images/share.png" alt="" /> 10K</a>
+
+              <a href="" class="three-dot"
+                ><img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYOtGTayz8f0Z2eX8CvzP2Rcy_5iWouarM2g&usqp=CAU"
+                  alt=""
+                  width="40px"
+                />
+              </a>
+            </div>
+          </div>
+          <hr />
+
+          <!-- Channel owner  -->
+
+          <div class="channelowner">
+            <img
+              src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600"
+              width="40px"
+            />
+            <div>
+              <p>Indian Roses</p>
+              <span>200K subscribers</span>
+            </div>
+            <button type="button">Subscribe</button>
+          </div>
+
+          <!-- Video Discription -->
+
+          <div class="video-discription">
+            <p>Flower when you see makes happy</p>
+            <p>Subscript Indian Flowers and also know about India</p>
+
+            <hr />
+            <h4>1008 comments</h4>
+
+            <!-- Add comments -->
+
+            <div class="add-comments">
+              <img
+                src="https://images.pexels.com/photos/906106/pexels-photo-906106.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+              />
+              <input type="text" placeholder="write comments" />
+            </div>
+
+            <!-- Start of the Comment Section -->
+
+            <!-- First Comment -->
+
+            <div class="old-comments">
+              <img
+                src="https://images.pexels.com/photos/1139613/pexels-photo-1139613.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+              />
+              <div>
+                <h3>Tusar Kapur <span>4 days ago</span></h3>
+                <p>Beautiful Flowers</p>
+                <div class="comment-reply">
+                  <img src="./images/like.png" alt="" />
+                  <span>500</span>
+                  <img src="./images/dislike.png" alt="" />
+                  <span>45</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of first comment -->
+
+            <!-- Start of the second Comment -->
+            <div class="old-comments">
+              <img
+                src="https://images.pexels.com/photos/1139613/pexels-photo-1139613.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+              />
+              <div>
+                <h3>Tusar Kapur <span>4 days ago</span></h3>
+                <p>Beautiful Flowers</p>
+                <div class="comment-reply">
+                  <img src="./images/like.png" alt="" />
+                  <span>500</span>
+                  <img src="./images/dislike.png" alt="" />
+                  <span>45</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of the second comment -->
+
+            <!-- Start of the third comment -->
+            <div class="old-comments">
+              <img
+                src="https://images.pexels.com/photos/1139613/pexels-photo-1139613.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+              />
+              <div>
+                <h3>Tusar Kapur <span>4 days ago</span></h3>
+                <p>Beautiful Flowers</p>
+                <div class="comment-reply">
+                  <img src="./images/like.png" alt="" />
+                  <span>500</span>
+                  <img src="./images/dislike.png" alt="" />
+                  <span>45</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+                </div>
+              </div>
+            </div>
+            <!-- End of the third comment -->
+            <!-- Start of the fourth comment -->
+            <div class="old-comments">
+              <img
+                src="https://images.pexels.com/photos/235534/pexels-photo-235534.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+              />
+              <div>
+                <h3>Anika Kumari <span>15 days ago</span></h3>
+                <p>It's really Awesome</p>
+                <div class="comment-reply">
+                  <img src="./images/like.png" alt="" />
+                  <span>500</span>
+                  <img src="./images/dislike.png" alt="" />
+                  <span>45</span>
+                  <span>REPLY</span>
+                  <a href="">All Replies</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- End of the last comment -->
+          </div>
+        </div>
+
+        <!-- End of Comment Section -->
+
+        <!-- Side bar videos -->
+
+        <div class="right-slidebar">
+          <!-- Side Video list started -->
+
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/733853/pexels-photo-733853.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/356844/pexels-photo-356844.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/2179483/pexels-photo-2179483.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/1440476/pexels-photo-1440476.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/248195/pexels-photo-248195.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/237211/pexels-photo-237211.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/574313/pexels-photo-574313.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/1098460/pexels-photo-1098460.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/11750406/pexels-photo-11750406.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!--  First Side Video List -->
+          <div class="side-video-list">
+            <a href="" class="small-thumbnail">
+              <img
+                src="https://images.pexels.com/photos/2846217/pexels-photo-2846217.jpeg?auto=compress&cs=tinysrgb&w=600"
+                alt=""
+                width="75%"
+            /></a>
+            <div class="video-info">
+              <a href="">How to use Camera</a>
+              <p>Photoholic</p>
+              <p>12k Views &bull; 2 days ago</p>
+            </div>
+          </div>
+          <!-- End of First Side Video List -->
+          <!-- End of Side Video List -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
